@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>HerCab Dashboard</title>
+
+<style>
+
+body{
+
+font-family:Poppins,sans-serif;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+height:100vh;
+
+background:#FCE4EC;
+
+margin:0;
+
+}
+
+.card{
+
+background:white;
+
+padding:40px;
+
+border-radius:15px;
+
+box-shadow:0 10px 20px rgba(0,0,0,.1);
+
+text-align:center;
+
+}
+
+h1{
+
+color:#E91E63;
+
+}
+
+button{
+
+padding:12px 30px;
+
+background:#E91E63;
+
+color:white;
+
+border:none;
+
+border-radius:25px;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+button:hover{
+
+background:#C2185B;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Welcome to HerCab 🚖</h1>
+
+<p>Login Successful</p>
+
+<button onclick="logout()">
+
+Logout
+
+</button>
+
+</div>
+
+<script>
+
+function logout(){
+
+window.location.href="login.html";
+
+}
+
+</script>
+
+</body>
+
+</html>

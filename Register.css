@@ -1,0 +1,146 @@
+*{
+
+margin:0;
+
+padding:0;
+
+box-sizing:border-box;
+
+font-family:'Poppins',sans-serif;
+
+}
+
+body{
+    background:#FCE4EC;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    min-height:100vh;
+    padding:30px 0;
+    overflow-y:auto;
+}
+
+.container{
+
+width:100%;
+
+display:flex;
+
+justify-content:center;
+
+}
+
+.register-box{
+    width:430px;
+    background:white;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+
+    max-height:90vh;
+    overflow-y:auto;
+}
+
+.register-box h1{
+
+text-align:center;
+
+color:#E91E63;
+
+margin-bottom:10px;
+
+}
+
+.register-box p{
+
+text-align:center;
+
+margin-bottom:25px;
+
+}
+
+.input-box{
+
+position:relative;
+
+margin-bottom:18px;
+
+}
+
+.input-box input{
+
+width:100%;
+
+padding:13px 45px;
+
+border:1px solid #ddd;
+
+border-radius:30px;
+
+outline:none;
+
+}
+
+.input-box i{
+
+position:absolute;
+
+left:18px;
+
+top:15px;
+
+color:#E91E63;
+
+}
+
+.checkbox{
+
+font-size:14px;
+
+display:block;
+
+margin-bottom:20px;
+
+}
+
+button{
+
+width:100%;
+
+padding:14px;
+
+background:#E91E63;
+
+color:white;
+
+border:none;
+
+border-radius:30px;
+
+font-size:16px;
+
+cursor:pointer;
+
+}
+
+button:hover{
+
+background:#C2185B;
+
+}
+
+.login-link{
+
+margin-top:20px;
+
+}
+
+.login-link a{
+
+color:#E91E63;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}

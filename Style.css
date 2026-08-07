@@ -1,0 +1,416 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:#FFF6FA;
+
+    color:#333;
+
+}
+
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+
+    width:100%;
+
+    height:80px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 8%;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    font-size:30px;
+
+    color:#E91E63;
+
+    font-weight:bold;
+
+}
+
+.logo i{
+
+    margin-right:8px;
+
+}
+
+.navbar ul{
+
+    display:flex;
+
+    list-style:none;
+
+}
+
+.navbar ul li{
+
+    margin:0 18px;
+
+}
+
+.navbar ul li a{
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:17px;
+
+    transition:.3s;
+
+}
+
+.navbar ul li a:hover{
+
+    color:#E91E63;
+
+}
+
+/* ===========================
+       BUTTONS
+=========================== */
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+}
+
+.login-btn{
+
+    text-decoration:none;
+
+    padding:10px 24px;
+
+    border:2px solid #E91E63;
+
+    border-radius:30px;
+
+    color:#E91E63;
+
+    transition:.3s;
+
+}
+
+.login-btn:hover{
+
+    background:#E91E63;
+
+    color:white;
+
+}
+
+.register-btn{
+
+    text-decoration:none;
+
+    padding:10px 24px;
+
+    border-radius:30px;
+
+    background:#E91E63;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.register-btn:hover{
+
+    background:#C2185B;
+
+}
+
+/* ===========================
+       HERO SECTION
+=========================== */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:80px 8%;
+
+}
+
+.left{
+
+    width:50%;
+
+}
+
+.left h1{
+
+    font-size:55px;
+
+    color:#E91E63;
+
+    margin-bottom:20px;
+
+}
+
+.left p{
+
+    font-size:20px;
+
+    color:#555;
+
+    line-height:35px;
+
+    margin-bottom:35px;
+
+}
+
+.book-btn{
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    background:#E91E63;
+
+    color:white;
+
+    padding:15px 40px;
+
+    border-radius:35px;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.book-btn:hover{
+
+    background:#C2185B;
+
+    transform:translateY(-3px);
+
+}
+
+.right{
+
+    width:45%;
+
+}
+
+.right img{
+
+    width:100%;
+
+}
+
+/* ===========================
+        FEATURES
+=========================== */
+
+.features,
+.safety{
+
+    padding:80px 8%;
+
+    text-align:center;
+
+}
+
+.features h2,
+.safety h2{
+
+    font-size:40px;
+
+    color:#E91E63;
+
+    margin-bottom:40px;
+
+}
+
+.feature-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:300px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.card i{
+
+    font-size:45px;
+
+    color:#E91E63;
+
+    margin-bottom:20px;
+
+}
+
+.card h3{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#666;
+
+    line-height:28px;
+
+}
+
+/* ===========================
+        FOOTER
+=========================== */
+
+footer{
+
+    background:#E91E63;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+footer h2{
+
+    font-size:35px;
+
+}
+
+footer p{
+
+    margin-top:10px;
+
+}
+
+.social{
+
+    margin-top:20px;
+
+}
+
+.social i{
+
+    font-size:25px;
+
+    margin:10px;
+
+    cursor:pointer;
+
+}
+
+.copy{
+
+    margin-top:20px;
+
+    font-size:15px;
+
+}
+
+.terms-container{
+
+max-width:800px;
+margin:40px auto;
+padding:30px;
+
+background:white;
+
+border-radius:15px;
+
+box-shadow:0 0 15px rgba(0,0,0,0.1);
+
+font-family:Arial;
+
+}
+
+
+.terms-container h1{
+
+color:#E91E63;
+text-align:center;
+
+}
+
+
+.terms-container h3{
+
+color:#E91E63;
+
+}
+
+
+.back-btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:12px 25px;
+
+background:#E91E63;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:25px;
+
+}

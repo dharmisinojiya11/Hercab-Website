@@ -1,0 +1,326 @@
+/* ==========================
+   GOOGLE FONT & RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+
+    background:linear-gradient(135deg,#FCE4EC,#F8BBD0);
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/* ==========================
+   MAIN CONTAINER
+========================== */
+
+.container{
+
+    width:1000px;
+
+    height:600px;
+
+    background:#ffffff;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    display:flex;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+/* ==========================
+   LEFT SIDE
+========================== */
+
+.left{
+
+    width:50%;
+
+    background:linear-gradient(135deg,#E91E63,#AD1457);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:40px;
+
+}
+
+.left h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.left p{
+
+    text-align:center;
+
+    line-height:30px;
+
+    margin-bottom:30px;
+
+}
+
+.left img{
+
+    width:320px;
+
+}
+
+/* ==========================
+   RIGHT SIDE
+========================== */
+
+.right{
+
+    width:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.login-box{
+
+    width:380px;
+
+}
+
+.login-box h2{
+
+    text-align:center;
+
+    color:#E91E63;
+
+    margin-bottom:30px;
+
+    font-size:32px;
+
+}
+
+/* ==========================
+   INPUT BOX
+========================== */
+
+.input-box{
+
+    position:relative;
+
+    margin-bottom:20px;
+
+}
+
+.input-box input{
+
+    width:100%;
+
+    padding:14px 45px;
+
+    border:1px solid #ddd;
+
+    border-radius:30px;
+
+    font-size:16px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.input-box input:focus{
+
+    border-color:#E91E63;
+
+}
+
+.input-box i:first-child{
+
+    position:absolute;
+
+    left:18px;
+
+    top:16px;
+
+    color:#E91E63;
+
+}
+
+#togglePassword{
+
+    position:absolute;
+
+    right:18px;
+
+    top:16px;
+
+    cursor:pointer;
+
+    color:#999;
+
+}
+
+/* ==========================
+   REMEMBER
+========================== */
+
+.remember{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:25px;
+
+    font-size:14px;
+
+}
+
+.remember a{
+
+    color:#E91E63;
+
+    text-decoration:none;
+
+}
+
+.remember a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+button{
+
+    width:100%;
+
+    padding:14px;
+
+    background:#E91E63;
+
+    color:white;
+
+    border:none;
+
+    border-radius:30px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:#C2185B;
+
+}
+
+/* ==========================
+   REGISTER LINK
+========================== */
+
+.register{
+
+    text-align:center;
+
+    margin-top:25px;
+
+}
+
+.register a{
+
+    color:#E91E63;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.register a:hover{
+
+    text-decoration:underline;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:900px){
+
+.container{
+
+    width:95%;
+
+    height:auto;
+
+    flex-direction:column;
+
+}
+
+.left{
+
+    width:100%;
+
+    padding:30px;
+
+}
+
+.left img{
+
+    width:220px;
+
+}
+
+.right{
+
+    width:100%;
+
+    padding:40px 20px;
+
+}
+
+.login-box{
+
+    width:100%;
+
+}
+
+}

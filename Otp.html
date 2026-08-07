@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>OTP Verification | HerCab</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="otp.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="otp-box">
+
+<h2>OTP Verification</h2>
+
+<p>Enter the 6-digit OTP sent to your mobile number.</p>
+
+<div class="otp-inputs">
+
+<input type="text" maxlength="1" class="otp">
+<input type="text" maxlength="1" class="otp">
+<input type="text" maxlength="1" class="otp">
+<input type="text" maxlength="1" class="otp">
+<input type="text" maxlength="1" class="otp">
+<input type="text" maxlength="1" class="otp">
+
+</div>
+
+<p class="timer">
+Resend OTP in <span id="countdown">30</span> sec
+</p>
+
+<button id="verifyBtn">
+Verify OTP
+</button>
+
+<p class="resend">
+<a href="#">Resend OTP</a>
+</p>
+
+</div>
+
+</div>
+
+<script src="otp.js"></script>
+
+</body>
+
+</html>
